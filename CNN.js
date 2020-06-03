@@ -18,7 +18,7 @@ function finalpred() {
 	
 		let myChart = document.getElementById('PredChart').getContext('2d');
 		let PredChart = new Chart(myChart, {
-			type:'horizontalBar',
+			type:'bar',
 			data:{
 				labels:['Dog','Cat','Panda'],
 				datasets:[{
