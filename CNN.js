@@ -24,7 +24,7 @@ function finalpred() {
 				datasets:[{
 						label: 'Animal',
 				data: array1,
-					backgroundColor: 'green'
+					backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f"]
 				}]
 				},
 				options:{
